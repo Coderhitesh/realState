@@ -9,13 +9,13 @@ const HeaderTopInfo = function () {
           <li>
             <Link href="mailto:info@webmail.com">
               <FaEnvelope />
-              <i></i> info@webmail.com
+              <i></i> info@realstate.com
             </Link>
           </li>
           <li>
             <Link href="/locations">
               <FaMapMarkerAlt />
-              15/A, Nest Tower, NYC
+              demo
             </Link>
           </li>
         </ul>

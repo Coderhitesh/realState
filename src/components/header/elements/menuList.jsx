@@ -57,9 +57,10 @@ const MenuList = ({ addListing }) => {
       </li>
       <li className="menu-icon">
         <Link href="/about">
-          About <FaPlus />
+          About 
+          {/* <FaPlus /> */}
         </Link>
-        <ul>
+        {/* <ul>
           <li>
             <Link href="/about">About</Link>
           </li>
@@ -84,13 +85,14 @@ const MenuList = ({ addListing }) => {
           <li>
             <Link href="/locations">Google Map Locations</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className="menu-icon">
-        <Link href="#">
-          Property <FaPlus />
+        <Link href="/shop/grid">
+          Property 
+          {/* <FaPlus /> */}
         </Link>
-        <ul>
+        {/* <ul>
           <li>
             <Link href="/shop">Property</Link>
           </li>
@@ -138,13 +140,14 @@ const MenuList = ({ addListing }) => {
               </li>
             </ul>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className="menu-icon">
-        <Link href="#">
-          News <FaPlus />
+        <Link href="/blog/grid">
+          Blogs 
+          {/* <FaPlus /> */}
         </Link>
-        <ul>
+        {/* <ul>
           <li>
             <Link href="/blog">News</Link>
           </li>
@@ -157,9 +160,9 @@ const MenuList = ({ addListing }) => {
           <li>
             <Link href="/blog/right-sidebar">News Right sidebar</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
-      <li className="menu-icon mega-menu-parent">
+      {/* <li className="menu-icon mega-menu-parent">
         <Link href="#">
           Pages <FaPlus />
         </Link>
@@ -236,16 +239,16 @@ const MenuList = ({ addListing }) => {
             </Link>
           </li>
         </ul>
-      </li>
+      </li> */}
       <li>
         <Link href="/contact">Contact</Link>
       </li>
 
-      {addListing ? (
+      {/* {addListing ? (
         <li className="special-link">
           <Link href="/add-listing">Add Listing</Link>
         </li>
-      ) : null}
+      ) : null} */}
     </ul>
   );
 };

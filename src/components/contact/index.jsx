@@ -29,8 +29,7 @@ const Contact = () => {
                 </div>
                 <h3>Email Address</h3>
                 <p>
-                  info@webmail.com <br />
-                  jobs@webexample.com
+                  info@realstate.com
                 </p>
               </div>
             </div>
@@ -41,7 +40,7 @@ const Contact = () => {
                 </div>
                 <h3>Phone Number</h3>
                 <p>
-                  +0123-456789 <br /> +987-6543210
+                  +0123-456789 
                 </p>
               </div>
             </div>
@@ -52,8 +51,7 @@ const Contact = () => {
                 </div>
                 <h3>Office Address</h3>
                 <p>
-                  18/A, New Born Town Hall <br />
-                  New York, US
+                  Demo
                 </p>
               </div>
             </div>
